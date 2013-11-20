@@ -1,13 +1,13 @@
-b135ea7c1099f77dbc4c19b83a06efaa *DESCRIPTION
+d4aab3383a1442c795b72c9db913e0f1 *DESCRIPTION
 df390c53434517b304ac5db487184641 *NAMESPACE
 26aadbf009175f44ad22584fa4d89c42 *R/allcausehr.R
 f429c70715806998dbcc59577dbe8a66 *R/cumallcausehr.R
 2df02646c054eae475fb00561c637310 *R/f.for.uniroot.R
 ad3bc7b5963885a506ed1873c9d3a6bc *R/hr.R
-c94a51124d0647006fc1cec8de3dab6b *R/sim.event.histories.R
+640a8e3c3c37f5a5d0f3f0e7891a8891 *R/sim.event.histories.R
 99e134fd9dd9cd8683965a0300e8bf76 *R/sim.exit.R
-8f1cf29c547981ef26fb4e325541ae0e *R/sim.single.history.R
-7fc97d6dd350176ae4152c22ccc9b083 *R/sim.to.R
+c2d86679dd5109f9eac58f3a43e9c6ba *R/sim.single.history.R
+694879b8ec4ce4a71fd45a8938968acc *R/sim.to.R
 ba067186e6fb9ace917db20ceaa35515 *inst/doc/usersguide_simMSM.pdf
 6df56b4b5984d721e7dcd2d30d342db1 *man/allcausehr.Rd
 bfd7d657083406a1d22eac651122144a *man/cumallcausehr.Rd
