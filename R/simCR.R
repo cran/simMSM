@@ -1,4 +1,4 @@
-simCR <- function(n, bhr, beta.x.12, beta.x.13, beta.x.14, diagnostics){
+simCR <- function(n, bhr, beta.x.12, beta.x.13, beta.x.14){
   bhr.11 <- function(t){return(0)}; eta.1.1 <- function(x.i, t){return(0*sum(x.i))}
   bhr.12 <- function(t){return(bhr)}
   bhr.13 <- function(t){return(bhr)}
@@ -50,7 +50,7 @@ simCR <- function(n, bhr, beta.x.12, beta.x.13, beta.x.14, diagnostics){
   histories <- NULL
   for (i in 1:n) {
     history.i <- simsinglehistory(first.entry = 0, first.from = all.first.from[i],
-                                  max.time, mpl, x.i = X[i, ], diagnostics = diagnostics)
+                                  max.time, mpl, x.i = X[i, ])
     if (!is.null(nrow(history.i))) {
       history.i <- cbind(history.i, rep(i, 1))
       for (x.index in 1:p) {

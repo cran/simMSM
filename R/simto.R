@@ -1,12 +1,12 @@
-simto <- function(entry.ij, from.ij, mpl, eta.ij, x.i, diagnostics, max.time){
-    exit.ij <- simexit(entry.ij, mpl[[from.ij]]$all.bhr, x.i = x.i,
-                       eta.ij = eta.ij, diagnostics = diagnostics, max.time = max.time)$new.exit
+simto <- function(entry.ij, from.ij, mpl, eta.ij, x.i, max.time, pme){
+    exit.ij <- simexit(entry.ij, all.bhr = mpl[[from.ij]]$bhr, x.i = x.i,
+                       eta.ij = eta.ij, max.time = max.time, pme = pme)$new.exit
     hr.at.exit.ij <- rep(NA, length(eta.ij))
     for(hi in mpl[[from.ij]]$all.to){
-        hr.at.exit.ij[hi] <- hr(bhr = mpl[[from.ij]]$all.bhr[[hi]],
+        hr.at.exit.ij[hi] <- hr(bhr = mpl[[from.ij]]$bhr[[hi]],
                                 t = exit.ij, 
                                 eta.ij = eta.ij[[hi]], 
-                                x.i = x.i)
+                                x.i = x.i) * pme[hi]
     }
     hr.at.exit.ij <- hr.at.exit.ij[!is.na(hr.at.exit.ij)]
     if(length(hr.at.exit.ij) > 1.5){

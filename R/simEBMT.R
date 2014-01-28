@@ -1,5 +1,4 @@
 simEBMT <- function(n){
-    diagnostics <- FALSE
     bhr <- 0.2
     bhr.11 <- function(t){return(0)}; eta.1.1 <- function(x.i, t){return(0*sum(x.i))}
     bhr.12 <- function(t){return(2.0*bhr)}
@@ -135,7 +134,7 @@ simEBMT <- function(n){
     histories <- NULL
     for (i in 1:n) {
         history.i <- simsinglehistory(first.entry = 0, first.from = all.first.from[i],
-                                      max.time, mpl, x.i = X[i, ], diagnostics = diagnostics)
+                                      max.time, mpl, x.i = X[i, ])
         if (!is.null(nrow(history.i))) {
             history.i <- cbind(history.i, rep(i, 1))
             for (x.index in 1:p) {
