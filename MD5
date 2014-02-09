@@ -1,4 +1,4 @@
-796c59469f8c32f99794bc46582189fa *DESCRIPTION
+c79e0878ce8b1292ba9ebfd0cbd7e8d0 *DESCRIPTION
 91a0a7587feb2c2128ef345a45e85be2 *NAMESPACE
 33846588761dcb4796cf607607dd5dcd *R/TraFromMpl.R
 19e0938c70054961a738b9e0e6c68f24 *R/allcausehr.R
@@ -17,7 +17,7 @@ e5991283d51a026c776dfe586f7b75a0 *R/plotnae.R
 3f59f5e029da76864f7e0ef1b3aa52e1 *R/simexitinner.R
 ffaaa6f4b4060376ff7af69414a898f2 *R/simsinglehistory.R
 cfd9f817f6915c7f8d7304d26e180de3 *R/simto.R
-44cc1e1fa905e51ef15d23d18d7734ea *R/tolongformat.R
+86cf03cd5a5c65a5d0f1f2f5ae721719 *R/tolongformat.R
 4524e50b333910132411243fee0b3ba5 *R/unirootf.R
 f522f5df80f9fb8503ba4e50fbc00bd1 *man/mplskeleton.Rd
 2d73783397c0943c048c3403cd38b574 *man/plotbe.Rd
