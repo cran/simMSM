@@ -1,15 +1,21 @@
 \name{mplskeleton}
 \alias{mplskeleton}
 \title{Build Up a Model Parameter List Skeleton}
-\description{Constructs the skeleton of a model parameter list on basis of the transition-type definition matrix.}
+\description{Constructs the skeleton of a model parameter list on basis of 
+the transition-type definition matrix.}
 \usage{
 mplskeleton(tmat)
 }
 \arguments{
-  \item{tmat}{a transition-type definition matrix. This is a square matrix containing the boolean information of which exit state-types (the columns) are reachable from which entry state-type (the lines).}
+  \item{tmat}{a transition-type definition matrix. This is a square matrix 
+  containing the boolean information of which exit state-types (the columns) 
+  are reachable from which entry state-type (the lines).}
  }
-\details{The example below provides an intuitive description of how to suitably set up the input argument.}
-\value{An incomplete (therefore the function name ends with 'skeleton') model parameter list as used for the input argument \code{mpl} in the function \code{\link{simeventhistories}}.}
+\details{The example below provides an intuitive description of how to 
+suitably set up the input argument.}
+\value{An incomplete (therefore the function name ends with 'skeleton')
+model parameter list as used for the input argument \code{mpl} in the 
+function \code{\link{simeventhistories}}.}
 \author{Holger Reulen}
 \examples{
 ## Two state-type model with transient state-types 1 and 2: 

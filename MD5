@@ -1,5 +1,5 @@
-c79e0878ce8b1292ba9ebfd0cbd7e8d0 *DESCRIPTION
-91a0a7587feb2c2128ef345a45e85be2 *NAMESPACE
+715bff2fc362f615e3e4f05edbda59ea *DESCRIPTION
+a3166bf5baac63949680221c2cb78bff *NAMESPACE
 33846588761dcb4796cf607607dd5dcd *R/TraFromMpl.R
 19e0938c70054961a738b9e0e6c68f24 *R/allcausehr.R
 3478d0525076b38e1d3e924c1443ec0b *R/cumallcausehr.R
@@ -19,10 +19,10 @@ ffaaa6f4b4060376ff7af69414a898f2 *R/simsinglehistory.R
 cfd9f817f6915c7f8d7304d26e180de3 *R/simto.R
 86cf03cd5a5c65a5d0f1f2f5ae721719 *R/tolongformat.R
 4524e50b333910132411243fee0b3ba5 *R/unirootf.R
-f522f5df80f9fb8503ba4e50fbc00bd1 *man/mplskeleton.Rd
-2d73783397c0943c048c3403cd38b574 *man/plotbe.Rd
-ece8b8994a4cdbcc1bb7f513352a8516 *man/plotcph.Rd
-c07b8d871ca7c3979b38238a40281e4e *man/plotnae.Rd
-4724d47352480ca9f8dff0e1c568109c *man/pmeskeleton.Rd
-628c5d2a65cc7dcb187769460b54b353 *man/simeventhistories.Rd
-f2df5d15236ef94ef92e099fa8cd3a55 *man/tolongformat.Rd
+d2731169d124c635b774357005d74870 *man/mplskeleton.Rd
+8966aba9690b19b53558f77a47f5b160 *man/plotbe.Rd
+dca4baf31dee078d68ef5625c3900d5d *man/plotcph.Rd
+b0675af4a8e9dbbc4ad199edf97a18f4 *man/plotnae.Rd
+7800cbd17179545592b37e3e653a2251 *man/pmeskeleton.Rd
+4c6ebdf0e80bf69554d9589a92d86b27 *man/simeventhistories.Rd
+509c2817c78579d67cc8f800d5ed998e *man/tolongformat.Rd
